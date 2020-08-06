@@ -1,23 +1,3 @@
-// const { response } = require("express");
-
-
-
-console.log('client side is loaded');
-
-// fetch('http://localhost:3000/weather?address=india').then((response)=>{
-//     response.json().then((data)=>{
-//         if(data.error){
-//             console.log(data.error)
-//         }else{
-//         console.log(data)
-//         console.log(data.address)
-//         console.log(data.forecast.data.temp)
-//         }
-        
-//     })
-// })
-
-
 const weatherForm=document.querySelector('form')
 const search=document.querySelector('input')
 const messageOne=document.querySelector('#message-1')
